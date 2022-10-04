@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-color: white;
+}
+
+.default-font{
+    font-size: x-large;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    background-color: skyblue;
+    margin-bottom: 1em;
+}
+
+input[type="button"]{
+    font-size: large;
+    height: 3em;
+    width: 10em;
+    border-radius: 15px;
+    margin: 1em;
+}

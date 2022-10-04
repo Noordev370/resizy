@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>welcome</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js" defer></script>
+    </head>
+
+    <body>
+        <h1>this page is a example to show our image resizing API</h1>
+        <fieldset>
+            <legend class="default-font">Set image options</legend>
+            <form>
+
+                <div>
+                    <label for="select" class="default-font">Select an image from the list</label>
+                    <select name="select" id="select">
+                        <option>fjord</option>
+                        <option selected>palmtunnel</option>
+                        <option>icelandwaterfall</option>
+                        <option>santamonica</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="width" class="default-font"> set the image width between 100px & 1000px</label>
+                    <input type="number" min="100" max=" 1000" id="width" value="800">
+                </div>
+
+                <div>
+                    <label for="height" class="default-font"> set the image height between 100px & 1000px</label>
+                    <input type="number" min="100" max="1000" id="height" value="600">
+                </div>
+
+                <div>
+                <input type="button" value="Get the image" onclick="main()">
+                </div>
+
+            </form>
+        </fieldset>
+        <div id="imagespace"></div>
+    </body>
+</html>
